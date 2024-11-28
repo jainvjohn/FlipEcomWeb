@@ -30,4 +30,12 @@ public class LoginPageTest {
         boolean flag=loginPageTitle.contains("Online Shopping");
         Assert.assertTrue(flag);
     }
+
+//    @Test
+//    public void getURL()
+//    {
+//        String loginPageTitle=driver.getTitle();
+//        assert loginPageTitle != null;
+//        boolean flag=loginPageTitle.contains("Online Shopping");
+//        Assert.assertTrue(flag);
 }
